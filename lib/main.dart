@@ -216,7 +216,7 @@ class BMICalculator extends StatelessWidget {
     Widget build(BuildContext context) {
     return Scaffold(
     appBar: AppBar(
-    title: Text('BMI CALCULATOR'),
+    title: Text('BULATOR'),
     title: Text('NEW BMI CALCULATOR'),
     ),
     body: Column(
