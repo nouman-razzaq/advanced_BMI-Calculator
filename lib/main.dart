@@ -193,7 +193,7 @@ class BMICalculator extends StatelessWidget {
       stylmerge remote tracking branchumberTextStyle,
       ),
       Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      maisAlignment: MainAxisAlignment.center,
       chi<Widget>[
       RoundIconButton(
       icon: FontAwesomeIcons.minus,
