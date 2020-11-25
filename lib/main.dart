@@ -201,52 +201,28 @@ class BMICalculator extends StatelessWidget {
       setState(
       () {
       age--;
-      },
-      );
-      },
-      ),
-      SizedBox(
-      width: 10.0,
-      ),
-      RoundIconButton(
-      icon: FontAwesomeIcons.plus,
-      onPressed: () {
-      setState(() {
-      age++;
-      });
-      })
-      ],
-      )
-      ],
-      ),
-      ),
-      ),
-      ],
-      ),
-      ),
-      BottomButton(
-      buttonTitle: 'CALCULATE',
-      onTap: () {
-      CalculatorBrain calc =
-      CalculatorBrain(height: height, weight: weight);
+      @@ -4,9 +4,9 @@ import 'package:bmi_calculator/components/icon_content.dart';
+    import 'package:bmi_calculator/components/reusable_card.dart';
+    import 'package:bmi_calculator/constants.dart';
+    import 'package:bmi_calculator/screens/results_page.dart';
+    import 'package:bmi_calculator/components/bottom_button.dart';
+    import 'package:bmi_calculator/components/round_icon_button.dart';
+    import 'package:bmi_calculator/calculator_brain.dart';
+    import 'package:bmi_calculator/components/bottom_button.dart';
 
-      Navigator.push(
-      context,
-      MaterialPageRoute(
-      builder: (context) => ResultsPage(
-      bmiResult: calc.calculateBMI(),
-      resultText: calc.getResult(),
-      interpretation: calc.getInterpretation(),
-      ),
-      ),
-      );
-      },
-      ),
-      ],
-      ),
-      );
-      }
-      } ),
+    enum Gender {
+    male,
+    @@ -28,7 +28,7 @@ class _InputPageState extends State<InputPage> {
+    Widget build(BuildContext context) {
+    return Scaffold(
+    appBar: AppBar(
+    title: Text('BMI CALCULATOR'),
+    title: Text('NEW BMI CALCULATOR'),
+    ),
+    body: Column(
+    crossAxisAlignment: CrossAxisAlignment.stretch,
+
+    } ),
     );
   }
 }
