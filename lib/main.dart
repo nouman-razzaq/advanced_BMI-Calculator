@@ -95,8 +95,9 @@ class BMICalculator extends StatelessWidget {
       ),
       Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.baseline,
-      textBaseline: TextBaseline.alphabetic,
+      crossAxisAight = 60;
+    int age = 20;
+    tBaseline.alphabetic,
       children: <Widget>[
       Text(
       height.toString(),
