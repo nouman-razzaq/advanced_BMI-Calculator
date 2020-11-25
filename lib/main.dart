@@ -170,7 +170,7 @@ class BMICalculator extends StatelessWidget {
       setState(() {
       weight++;
       });
-
+    e3de8b9edff8881b867813cf5c3b0e63298fa1cd
       ),
       ),
       ),(9409ed6d9ad96b7dd1228ddcb8fa314dce7e9fd9
