@@ -57,7 +57,9 @@ class BMICalculator extends StatelessWidget {
       colour: selectedGender == Gender.male
       ? kActiveCardColour
           : kInactiveCardColour,
-      cardChild: IconContent(
+      cardChild:ight = 60;
+    int age = 20;
+    nContent(
       icon: FontAwesomeIcons.mars,
       label: 'Male',
       ),
