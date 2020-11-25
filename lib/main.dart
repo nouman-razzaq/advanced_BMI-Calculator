@@ -207,7 +207,7 @@ class BMICalculator extends StatelessWidget {
     @@ -28,7 +28,7 @@ class _InputPageState extends State<InputPage> {
     Widget build(BuildContext context) {
     return Scaffold(
-    appBar: AppBar(
+    appBar: Aar(
     title: Text('BULATOR'),
     title: Text('NEW BMI CALCULATOR'),
     ),
