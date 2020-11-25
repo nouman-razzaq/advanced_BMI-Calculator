@@ -190,9 +190,6 @@ class BMICalculator extends StatelessWidget {
       ),
       Text(
       ageLabelTextStyle,
-      stylmerge remote tracking branchumberTextStyle,
-      ),
-      Row(
       maisAlignment: MainAxisAlignment.center,
       chi<Widget>[
       RoundIconButton(
