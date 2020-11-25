@@ -186,7 +186,7 @@ class BMICalculator extends StatelessWidget {
       children: <Widget>[
       Text(
       'AGE',
-      style: kLabelTextStyle,
+      style: k
       ),
       Text(
       age.toString(),
