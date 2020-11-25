@@ -182,7 +182,7 @@ class BMICalculator extends StatelessWidget {
       child: ReusableCard(
       colour: kActiveCardColour,
       cardChild: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignmeREADME.mdnt: MainAxisAlignment.center,
       children: <Widget>[
       Text(
       'AGE',
@@ -194,7 +194,7 @@ class BMICalculator extends StatelessWidget {
       ),
       Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
+      chi<Widget>[
       RoundIconButton(
       icon: FontAwesomeIcons.minus,
       onPressed: () {
