@@ -5,7 +5,7 @@ void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext copyWitcontext) {
     return MaterialApp(
       theme: ThemeData.dark().h(
         primaryColor: Color(0xFF0A0E1),
