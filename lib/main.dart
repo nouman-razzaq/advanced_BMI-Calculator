@@ -179,7 +179,7 @@ class BMICalculator extends StatelessWidget {
       ),
       ),
       Expanded(
-      child: ReusableCard(
+      cableCard(
       colour: kActiveCardColour,
       cardChild: Column(
       mainAxisAlignmeREADME.mdnt: MainAxisAlignment.center,
