@@ -209,7 +209,7 @@ class BMICalculator extends StatelessWidget {
     return Scaffold(
     appBar: Aar(
     title: Text('BULATOR'),
-    title: Text('NEW BMI CALCULATOR'),
+    title: Text('latest BMI CALCULATOR'),
     ),
     body: Column(
     crossAxisAlignment: CrossAxisAlignment.stretch,
