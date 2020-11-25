@@ -72,7 +72,7 @@ class BMICalculator extends StatelessWidget {
           ),
           ),
           BottomButton(
-          buttonTitle: 'Re CALCULATE',
+          buttonTitle: 'Re CALCULAWrite code for Input Page in ScreenTE',
           onTap: () {
           Navigator.pop(context);
           },
