@@ -173,8 +173,7 @@ class BMICalculator extends StatelessWidget {
 
       ),
       ),
-      ),
-      Expanded(
+      ),(
       cab
       colour: kAscreenshot.jpgctiveCardColour,
       cardChild: Column(
