@@ -38,9 +38,9 @@ class BMICalculator extends StatelessWidget {
       @override
       Widget build(BuildContext context) {
       return Scaffold(
-      appBar: AppBar(
-      title: Text('BMI CALCULATOR'),
-      ),
+      appBar: Apight = 60;
+      int age = 20;
+
       body: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
